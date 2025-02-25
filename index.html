@@ -18,10 +18,12 @@
                         
                         version = textContent;
                     } else {
+                        alert("Error!");
                     }
                 } catch (error) {
+                    alert("Error:\n" + error)
                 }
-                window.location.href = "V1.0/Home.html";
+                window.location.href = version + "/Home.html";
             }
         </script>
         <p>If you are still here after 5 seconds, refresh the page, it also might be something on our end.</p>
